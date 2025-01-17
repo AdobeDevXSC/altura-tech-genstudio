@@ -3,7 +3,7 @@
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>WKND Responsive Layout</title>  
+    <title>Altura Technology - Responsive Layout 300x250</title>  
     <link rel="stylesheet" href="https://use.typekit.net/qap0nun.css">  
     <style>  
         body, html {  
@@ -18,30 +18,31 @@
             overflow: hidden;  
         }  
         .background-image {  
-            width: auto;  
-            height: 100%;  
+            width: 100%;  
+            height: 100%;   
             object-fit: cover;
+
         }  
         .content {  
             position: absolute;  
             top: 0;  
-            left: 0;  
+            left: 15px;  
             right: 0;  
             bottom: 0;  
             display: flex; /* Use flexbox */  
             flex-direction: column; /* Arrange children in column */  
-            align-items: center; /* Center children horizontally */  
-            text-align: center;  
+            align-items: flex-start; /* Align children to the left */  
+            text-align: left; /* Align text to the left */  
             color: white;  
         }  
         .text {  
             font-family: 'Source Sans Pro', Arial, sans-serif;  
             font-weight: bold;  
             padding: 1%;  
-            font-size: 35px;  
+            font-size: 20px;  
             width: 80%; /* Set the width of the text box */  
-            margin-top: 30%;
-            margin-bottom: 20px; /* Space between text and button */  
+            margin-top: 10%;
+            margin-bottom: 10px; /* Space between text and button */  
             position: relative; /* Make the text container relative */  
         }  
         .button {  
@@ -55,13 +56,13 @@
             font-weight: 600; /* Semibold */
             font-size: 14px;
             margin-top: 20px;
-            text-align: center;  
+            text-align: center; 
         }  
         .logo {  
             position: absolute;  
-            bottom: 2%;  
-            right: 4%;  
-            height: 10%;  
+            bottom: 10px;  
+            left: 0;  
+            height: 15%;  
         }  
     </style>  
 </head>  
